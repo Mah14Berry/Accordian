@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.a{
+  /* display: flex;
+  justify-content: center; */
+  border: solid black;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.b{
+  display: none;
+  border: solid black;
+  box-sizing: border-box;
+  background-color: aquamarine;
+  width: 300px;
+}
+
+.b.active{
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+
+}
